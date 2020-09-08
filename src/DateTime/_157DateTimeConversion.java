@@ -9,8 +9,8 @@ public class _157DateTimeConversion {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter the time");
-        timeConversion(scan.nextLine());
-        //timeConversion1();
+        timeConversion(scan.nextLine().toLowerCase());
+
     }
 
     public static void timeConversion(String s) {
